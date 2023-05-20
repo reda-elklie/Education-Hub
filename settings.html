@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <title>User Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navigation">
+
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/36/36447.png" alt="">
+            <h3>El Klie </h3>
+        </div>
+        <div class="list_tools">
+            <div class="line" class="clickable-div" onclick="redirectToPage('index.html')">
+                <i class="ri-dashboard-line"></i>
+                <h3>Dashboard</h3>
+            </div>
+            <div class="line" class="clickable-div" onclick="redirectToPage('courses.html')">
+                <i class=" ri-graduation-cap-line"></i>
+                <h3>Courses</h3>
+            </div>
+            <div class="line" class="clickable-div" onclick="redirectToPage('Assignment.html')">
+                <i class="ri-list-check-3"></i>
+                <h3>Assignment</h3>
+            </div>
+            <div class="line" class="clickable-div" onclick="redirectToPage('Tasks.html')">
+                <i class=" ri-task-line"></i>
+                <h3>Tasks</h3>
+            </div>
+            <div class="line" class="clickable-div" onclick="redirectToPage('DataBase.html')">
+                <i class="ri-database-line"></i>
+                <h3>DataBase</h3>
+            </div>
+            <div class="line" class="clickable-div" onclick="redirectToPage('Scheduled.html')">
+                <i class=" ri-book-3-line"></i>
+                <h3>Scheduled</h3>
+            </div>
+
+        </div>
+        <div class="premium ">
+            <h1>Go Premium</h1>
+            <h4>Explore 500+ Courses with Lifetime Membership</h4>
+            <button>Upgrade Now</button>
+        </div>
+        <div class="setting">
+            <div class="set" class="clickable-div active" onclick="redirectToPage('settings.html')">
+                <i class="ri-settings-5-line"></i>
+                <h3>Settings</h3>
+            </div>
+            <div class="set">
+                <i class="ri-logout-box-r-line "></i>
+                <h3>Log Out</h3>
+            </div>
+        </div>
+    </div>
+    <div class="main_content ">
+        <div class="toggle "><i class="ri-menu-2-line "></i></div>
+        <div class="ex_title">
+            <h1>Settings</h1>
+        </div>
+        <div class="weds">
+            <div class="settings-controle">
+                <h1>Site Control</h1>
+                <p>Control the website if there is Maintenanace</p>
+                <div class="wed-to">
+                    <div class="title-websiteControle">
+                        <h4>Website Control</h4>
+                        <p>Open Close Website</p>
+                    </div>
+                    <label>
+                    <input type="checkbox" class="toggle-checkbox"  checked>
+                    <div class="toggle-switch"></div>
+                </label>
+
+                </div><input type="text" id="read" readonly placeholder="Close Message Content">
+            </div>
+            <div class="info-controle">
+                <h1>General Info</h1>
+                <p>General Information About Your Account</p>
+                <div class="general-info">
+                    <h4>First Name</h4>
+                    <input type="text" placeholder="First Name">
+                    <h4>Last Name</h4>
+                    <input type="text" placeholder="Last Name">
+                    <div class="email">
+                        <h4>Email</h4>
+                        <input type="email" placeholder="redaelklie@gmail.com">
+                        <button>change</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+
+                <p>&copy; 2023 Reda El Klie . All rights reserved</p>
+
+            </div>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr "></script>
+        <script src="main.js "></script>
+</body>
+
+</html>
